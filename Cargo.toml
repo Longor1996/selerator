@@ -1,0 +1,21 @@
+[package]
+name = "selerator"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Longor1996"]
+readme = "README.md"
+
+categories = ["rust-patterns"]
+keywords = ["iterator", "iter", "select"]
+description = "User-defined Selectors/Patterns to configure Iterators."
+repository = "https://github.com/Longor1996/selerator"
+documentation = "https://docs.rs/selerator/"
+
+[features]
+default = []
+
+[dependencies]
+#thiserror = "1.0" # too big :'(
+
+[dev-dependencies]
